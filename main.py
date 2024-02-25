@@ -23,16 +23,6 @@ def extract_text_with_coordinates(pdf_path):
 
     return text_info
 
-
-# Exemplo de uso
-pdf_path = r'D:\projects\git\pdfocr\pythonProject\files\inss.pdf'
-text_info = extract_text_with_coordinates(pdf_path)
-
-# Exemplo de impressão do texto com suas coordenadas
-for info in text_info:
-    print(f"Page {info['page']}, Text: {info['text']}, Coordinates: {info['coordinates']}")
-
-
 # Função principal da aplicação Streamlit
 def main():
     st.title("PDF Text Extractor")
