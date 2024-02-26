@@ -1,5 +1,5 @@
 import streamlit as st
-import fitz
+import fitz # PyMuPDF
 import os
 from tempfile import NamedTemporaryFile
 
